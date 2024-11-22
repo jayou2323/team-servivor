@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>웹 게임 - 아이템 목록 기반 생성</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="game-container">
+    <div id="game-area">
+      <p> 게임 화면</p>
+    </div>
+    <button id="inventory-toggle"> 인벤토리 열기</button>
+    <div id="inventory">
+      <h2> 인벤토리</h2>
+      <ul id="item-list"></ul>
+      <input type="text" id="item-input" placeholder="아이템 이름 입력" />
+      <button id="create-item">아이템 생성</button>
+      <button id="close-inventory">닫기</button>
+    </div>
+    <div id="item-pool">
+      <h2> 사용 가능한 아이템 목록</h2>
+      <ul id="available-items">
+        <!-- 아이템 목록 표시 -->
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
